@@ -99,8 +99,8 @@ We provide some matlab scripts to run the demo in the paper.
 Notice
 ========
 1) Currently the implement is a slow version which can be sped up for 5 times.
-We will son release the speed-up version.
-2) The parameters used in the demo are a little different with the paper. This is caused by the image size differences.
+We will soon release the speed-up version.
+2) The parameters used in the demo are slightly different with the paper. This is caused by the image size differences.
 
 Citation
 ========
