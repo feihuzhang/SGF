@@ -115,6 +115,9 @@ $SGF.exe 1.png 2.png 3.png 16 0.1
 
 $SGF.exe 1.png 1.png 3.png 16 0.1 0.1 3
 
+Or on Linux:
+$./SGF [guid image] [target image] [output file] [radius] [eps] [thresh] [iterations]
+
 We provide some matlab scripts to run the demo in the paper.
 
 1) demo_abs:	the image abstraction demo. Inputs and outputs are in the "abs"
