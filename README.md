@@ -95,9 +95,9 @@ If you want to use the code in your own project. You can directly add the SGF.cp
 Running the Demo
 ================
 
-You can directly run the exe file by 
+You can directly run the exe file on windows by 
 
-$./SGF [guid image] [target image] [output file] [radius] [eps] [thresh] [iterations]
+$SGF.exe [guid image] [target image] [output file] [radius] [eps] [thresh] [iterations]
 
 value range: (see the paper for details about these parameters)
 
@@ -111,9 +111,9 @@ The last two parameters can be neglected. Default: 1
 
 Examples:
 
-$./SGF 1.png 2.png 3.png 16 0.1 
+$SGF.exe 1.png 2.png 3.png 16 0.1 
 
-$./SGF 1.png 1.png 3.png 16 0.1 0.1 3
+$SGF.exe 1.png 1.png 3.png 16 0.1 0.1 3
 
 We provide some matlab scripts to run the demo in the paper.
 
