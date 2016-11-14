@@ -1,4 +1,6 @@
 function shrink(file,scale)
+%file: filename of the original depth map;
+%scale: shrink scale to generate the seedmap.
 img=imread(file);
 [m,n,p]=size(img);
 img=img(:,:,1);
