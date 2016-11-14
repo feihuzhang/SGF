@@ -122,7 +122,7 @@ We provide some matlab scripts to run the demo in the paper.
 
 1) demo_abs:	the image abstraction demo. Inputs and outputs are in the "abs"
 
-2) demo_depth:	depth map denoising and depth map upsampling(8 times). Inputs and outputs are in the "depth"
+2) demo_depth:	depth map denoising and depth map upsampling(8 times). Inputs and outputs are in the "depth". For the application of depth map upsampling, fistly, generate the seed map and then, use the guidance image to filter the seed map. "depth/shrink.m" provides an example to generate the seed map by just setting all the other pixels(except the seed pixel) to zero.
 
 3) demo_iterative: demo super iterative SGF, the inputs will be filtering for 10~30 times. Inputs and outputs are in "iterative"
 
